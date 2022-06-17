@@ -3,6 +3,7 @@ def get_input():
     input_list = {}
     input_list["sra-accessions"] = []
     input_list["sequencing-technology"] = ''
+    input_list["reference-genome-url"] = ''
 
     if "sra-accessions" in config.keys():
         with open(config["sra-accessions"]) as infile:
@@ -12,5 +13,8 @@ def get_input():
 
     if "sequencing-technology" in config.keys():
         input_list["sequencing-technology"] = config["sequencing-technology"]
+
+    if "reference-genome-url" in config.keys():
+        input_list["reference-genome-url"] = config["reference-genome-url"]
 
     return input_list

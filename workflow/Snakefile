@@ -1,13 +1,17 @@
-configfile: 'config.yaml'
+configfile: "config.yaml"
 
-include: 'rules/utils.smk'
+report: "report/workflow.rst"
+
+include: "rules/utils.smk"
 
 input_list = get_input()
 
-include: 'rules/process_fastq.smk'
+include: "rules/process_fastq.smk"
+include: "rules/index_reference_genome.smk"
 
 rule all:
     input:
         rules.get_fastq.output,
         rules.trim.output,
-        rules.merge.output
+        rules.merge.output,
+        rules.fetch_ref_url.output
