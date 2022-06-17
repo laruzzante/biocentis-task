@@ -1,0 +1,13 @@
+configfile: 'config.yaml'
+
+include: 'rules/utils.smk'
+
+input_list = get_input()
+
+include: 'rules/process_fastq.smk'
+
+rule all:
+    input:
+        rules.get_fastq.output,
+        rules.trim.output,
+        rules.merge.output

@@ -1,0 +1,6 @@
+MAX_MEMORY: 16000 # in MB
+MAX_RUNTIME: 3600 # in seconds
+MAX_THREADS: 8
+
+sra-accessions: input/sra-accessions.txt
+sequencing-technology: "sanger"

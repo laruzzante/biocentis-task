@@ -1,0 +1,5 @@
+name: sickle-trim
+channels:
+  - bioconda
+dependencies:
+  - sickle-trim
