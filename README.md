@@ -41,6 +41,6 @@ vim config.yaml
 snakemake --cores <N> --use-conda
 ```
 
-## Input:
+## Input
 Modify the sra_accessions.txt input file in the input folder, add as many sra_accessions as needed, one per line.
 The workflow will automatically fetch the sequences via the sra-toolkit. An example input is provided in the _workflow/input_ directory.
