@@ -27,7 +27,7 @@ rule get_fastq:
     conda:
         "../envs/sra-tools.yaml"
     shell:
-        "fastq-dump {params.sra_accessions} --split-files --gzip --outdir output/fastq"
+        "fastq-dump {params.sra_accessions} --split-files --gzip --outdir output/fastq >> {log}"
 
 
 # Trimming the ends of the read to increase the quality of the successive alignment using sickle-trim
@@ -51,7 +51,7 @@ rule trim:
     conda:
         "../envs/sickle-trim.yaml"
     shell:
-        "sickle pe -f {input.read_1} -r {input.read_2} -t {params.technology} -o {output.qfltr_1} -p {output.qfltr_2} -s {output.single}"
+        "sickle pe -f {input.read_1} -r {input.read_2} -t {params.technology} -o {output.qfltr_1} -p {output.qfltr_2} -s {output.single}  >> {log}"
 
 
 # Merge paired-ends reads with FLASH
@@ -77,4 +77,4 @@ rule merge:
     conda:
         "../envs/flash.yaml"
     shell:
-        "flash {input.trimmed_read_1} {input.trimmed_read_2} -o {params.sra_accessions} -d output/merged_fastq"
+        "flash {input.trimmed_read_1} {input.trimmed_read_2} -o {params.sra_accessions} -d output/merged_fastq  >> {log}"

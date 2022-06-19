@@ -22,4 +22,4 @@ rule fetch_ref_url:
     benchmark:
         "benchmarks/fetch_ref_url.tsv"
     shell:
-        "wget {params.ref_url} --directory-prefix output/ref_genome -O output/ref_genome/{params.file_name}"
+        "wget {params.ref_url} --directory-prefix output/ref_genome -O output/ref_genome/{params.file_name} >> {log}"
