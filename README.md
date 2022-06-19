@@ -23,7 +23,7 @@ conda activate snakemake
 
 * Clone or manually download the git repository:
 ```bash
-git clone git@gitlab.com:laruzzante/biocentis-task.git
+git clone git@github.com:laruzzante/biocentis-task.git
 ```
 
 * Move to the evol-feat-snakemake workflow directory:
@@ -43,4 +43,4 @@ snakemake --cores <N> --use-conda
 
 ## Input:
 Modify the sra_accessions.txt input file in the input folder, add as many sra_accessions as needed, one per line.
-The workflow will automatically fetch the sequences via the sra-toolkit.
+The workflow will automatically fetch the sequences via the sra-toolkit. An example input is provided in the _workflow/input_ directory.
