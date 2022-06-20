@@ -1,0 +1,5 @@
+name: igv
+channels:
+  - bioconda
+dependencies:
+  - igv

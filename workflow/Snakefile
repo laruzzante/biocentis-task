@@ -8,10 +8,9 @@ input_list = get_input()
 
 include: "rules/process_fastq.smk"
 include: "rules/index_reference_genome.smk"
+include: "rules/map_reads.smk"
 
 rule all:
     input:
-        rules.get_fastq.output,
-        rules.trim.output,
-        rules.merge.output,
-        rules.fetch_ref_url.output
+        rules.index_ref.output,
+        rules.map_reads.output
