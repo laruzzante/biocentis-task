@@ -2,7 +2,7 @@
 Snakemake workflow to fetch, process and map reads to a reference genome.
 
 ## Requirements
-Conda, Snakemake.
+Conda, Snakemake, Unix environment (if using Windows, either create a VM, or activate the Windows Subsystem for Linux availabale in Windows10/11).
 
 ## Workflow summary
 From a simple input textfile containing one sra-accession per line, biocentis-task will fetch the sequence with fastq-dump (sra-toolkit), quality trim with sickle, merge the reads with FLASH, map the reads to the reference genome with bwa, sort and index them with samtools. The final output will be an indexed bam file, readily visualisable with genome visualisers such as igv.
@@ -26,7 +26,7 @@ conda activate snakemake
 git clone git@github.com:laruzzante/biocentis-task.git
 ```
 
-* Move to the evol-feat-snakemake workflow directory:
+* Move to the bio-centis workflow directory:
 ```bash
 cd biocentis/workflow
 ```
