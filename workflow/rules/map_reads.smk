@@ -23,7 +23,7 @@ rule index_mapped_reads:
     input:
         rules.map_reads.output
     output:
-        expand("output/mapped_reads/{sra_accessions}.fastq.bam.index", sra_accessions = get_sra_accessions())
+        expand("output/mapped_reads/{sra_accessions}.fastq.bai", sra_accessions = get_sra_accessions())
     threads: MAX_THREADS
     resources:
         mem_mb = MAX_MEMORY,
@@ -35,4 +35,4 @@ rule index_mapped_reads:
     conda:
         "../envs/samtools.yaml"
     shell:
-        "samtools index --threads {threads} {input} {output} >> {log}"
+        "samtools index -@ {threads} {input} {output} >> {log}"

@@ -13,4 +13,4 @@ include: "rules/map_reads.smk"
 rule all:
     input:
         rules.index_ref.output,
-        rules.map_reads.output
+        rules.index_mapped_reads.output
