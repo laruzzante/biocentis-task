@@ -9,8 +9,10 @@ input_list = get_input()
 include: "rules/process_fastq.smk"
 include: "rules/index_reference_genome.smk"
 include: "rules/map_reads.smk"
+include: "rules/crispresso.smk"
 
 rule all:
     input:
         rules.index_ref.output,
-        rules.index_mapped_reads.output
+        rules.index_mapped_reads.output,
+        expand("output/crispresso/{sra_accession}_HDR{hdr_threshold}/mockfile.txt", sra_accession = get_sra_accessions(), hdr_threshold = get_hdr_thresholds())

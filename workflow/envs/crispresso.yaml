@@ -1,0 +1,7 @@
+name: cripresso
+channels:
+  - bioconda
+  - anaconda
+dependencies:
+  - crispresso
+  - numpy

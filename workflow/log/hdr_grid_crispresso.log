@@ -1,0 +1,468 @@
+
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.2.7]                           
+[Note that starting in version 2.1.0 insertion quantification has been changed
+to only include insertions completely contained by the quantification window.
+To use the legacy quantification method (i.e. include insertions directly adjacent
+to the quantification window) please use the parameter --use_legacy_insertion_quantification]
+                 [For support contact kclement@mgh.harvard.edu]                 
+
+
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.2.7]                           
+[Note that starting in version 2.1.0 insertion quantification has been changed
+to only include insertions completely contained by the quantification window.
+To use the legacy quantification method (i.e. include insertions directly adjacent
+to the quantification window) please use the parameter --use_legacy_insertion_quantification]
+                 [For support contact kclement@mgh.harvard.edu]                 
+
+
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.2.7]                           
+[Note that starting in version 2.1.0 insertion quantification has been changed
+to only include insertions completely contained by the quantification window.
+To use the legacy quantification method (i.e. include insertions directly adjacent
+to the quantification window) please use the parameter --use_legacy_insertion_quantification]
+                 [For support contact kclement@mgh.harvard.edu]                 
+
+
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.2.7]                           
+[Note that starting in version 2.1.0 insertion quantification has been changed
+to only include insertions completely contained by the quantification window.
+To use the legacy quantification method (i.e. include insertions directly adjacent
+to the quantification window) please use the parameter --use_legacy_insertion_quantification]
+                 [For support contact kclement@mgh.harvard.edu]                 
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                
+  
+~~~CRISPResso~~~
+-Analysis of CRISPR/Cas9 outcomes from deep sequencing data-
+
+                      )
+                     (
+                    __)__
+                 C\|     |
+                   \     /
+                    \___/
+             
+
+[Luca Pinello 2015, send bugs, suggestions or *green coffee* to lucapinello AT gmail DOT com]
+
+Version 1.0.13
+
+
+                  )
+                 (
+                __)__
+             C\|     |
+               \     /
+                \___/
+                

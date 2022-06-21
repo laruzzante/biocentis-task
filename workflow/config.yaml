@@ -2,6 +2,30 @@ MAX_MEMORY: 16000 # in MB
 MAX_RUNTIME: 3600 # in seconds
 MAX_THREADS: 8
 
+
+## MAPPING READS
+
 sra-accessions: input/sra-accessions.txt
 sequencing-technology: sanger
 reference-genome-url: http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/analysisSet/hg38.analysisSet.chroms.tar.gz
+
+
+## CRISPRESSO ANALYSIS
+
+# Amplicon sequence
+amplicon-seq: input/crispresso/amplicon-seq.txt
+# Guide RNA sequence
+sgRNA-seq: input/crispresso/sgRNA-seq.txt
+# Expected amplicon sequence after HDR
+exp-amplicon-seq: input/crispresso/exp-amplicon-seq.txt
+# Critical subsequence to highlight
+crit-subseq: input/crispresso/crit-subseq.txt
+# HDR range
+hdr-min: 90
+hdr-max: 100
+hdr-n-steps: 6
+# hdr-threshold: 98
+
+hdr-thresholds:
+  - "90"
+  - "100"
