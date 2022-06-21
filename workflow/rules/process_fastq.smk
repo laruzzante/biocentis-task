@@ -77,4 +77,4 @@ rule merge:
     conda:
         "../envs/flash.yaml"
     shell:
-        "flash {input.trimmed_read_1} {input.trimmed_read_2} -o {params.sra_accessions} -d output/merged_fastq  >> {log}"
+        "flash -M 500 {input.trimmed_read_1} {input.trimmed_read_2} -o {params.sra_accessions} -d output/merged_fastq  >> {log}"
